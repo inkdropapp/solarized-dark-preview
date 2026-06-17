@@ -1,0 +1,56 @@
+.dark-mode .mde-preview {
+  /* Solarized surfaces (formerly the --color-canvas-* tokens) */
+  --solarized-preview-surface: hsl(
+    var(--hsl-neutral-700) / 80%
+  ); /* was --color-canvas-default */
+  --solarized-preview-surface-subtle: hsl(
+    var(--hsl-neutral-800) / 40%
+  ); /* was --color-canvas-subtle */
+
+  /* Links (was --color-accent-fg) */
+  --mde-preview-link-color: var(--color-cyan-500);
+
+  /* Code blocks */
+  --mde-preview-codeblock-background-color: var(
+    --solarized-preview-surface-subtle
+  );
+  --mde-preview-codeblock-meta-background-color: var(
+    --solarized-preview-surface
+  );
+  --mde-preview-inline-code-background-color: var(
+    --solarized-preview-surface-subtle
+  );
+
+  /* Tables */
+  --mde-preview-table-head-text-color: var(--color-yellow-500);
+  --mde-preview-table-head-background-color: var(--solarized-preview-surface);
+  --mde-preview-table-row-background-color: var(--solarized-preview-surface);
+  --mde-preview-table-row-stripe-background-color: var(
+    --solarized-preview-surface-subtle
+  );
+
+  /* Images */
+  --mde-preview-image-background-color: var(--solarized-preview-surface);
+
+  /* Mark */
+  --mde-preview-inline-mark-text-color: hsl(var(--hsl-red-50));
+  --mde-preview-inline-mark-background-color: hsl(var(--hsl-red-900));
+  --mde-preview-inline-mark-underline-color: hsl(var(--hsl-red-500));
+
+  strong {
+    color: var(--color-neutral-100);
+  }
+
+  em {
+    color: var(--color-green-500);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: var(--color-yellow-500);
+  }
+}

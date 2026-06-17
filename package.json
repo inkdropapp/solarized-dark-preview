@@ -1,0 +1,12 @@
+{
+  "version": "1.0.0",
+  "name": "solarized-dark-preview",
+  "description": "Solarlized Dark for Markdown preview",
+  "theme": "preview",
+  "styleSheets": [
+    "index.css"
+  ],
+  "engines": {
+    "inkdrop": "^6.x"
+  }
+}
