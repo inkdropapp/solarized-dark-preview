@@ -6,6 +6,13 @@
   "styleSheets": [
     "index.css"
   ],
+  "keywords": [
+    "inkdrop",
+    "markdown"
+  ],
+  "repository": "https://github.com/inkdropapp/solarized-dark-preview",
+  "author": "Takuya Matsuyama<t@inkdrop.app>",
+  "license": "MIT",
   "engines": {
     "inkdrop": "^6.x"
   }
