@@ -38,20 +38,7 @@
   --mde-preview-inline-mark-background-color: hsl(var(--hsl-red-900));
   --mde-preview-inline-mark-underline-color: hsl(var(--hsl-red-500));
 
-  strong {
-    color: var(--color-neutral-200);
-  }
-
-  em {
-    color: var(--color-green-500);
-  }
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: var(--color-yellow-500);
-  }
+  --mde-preview-heading-color: var(--color-yellow-500);
+  --mde-preview-strong-color: var(--color-neutral-200);
+  --mde-preview-em-color: var(--color-green-500);
 }
