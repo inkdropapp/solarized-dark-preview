@@ -3,6 +3,7 @@
   "name": "solarized-dark-preview",
   "description": "Solarlized Dark for Markdown preview",
   "theme": "preview",
+  "themeAppearance": "dark",
   "styleSheets": [
     "index.css"
   ],

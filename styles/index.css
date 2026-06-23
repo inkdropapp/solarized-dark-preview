@@ -1,4 +1,4 @@
-.mde-preview {
+:root {
   /* Solarized surfaces (formerly the --color-canvas-* tokens) */
   --solarized-preview-surface: hsl(
     var(--hsl-neutral-700) / 80%
